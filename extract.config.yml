@@ -1,3 +1,6 @@
 connections:
-  - type: glue
-    name: aws_glue
+  # - type: glue
+  #   name: aws_glue
+  - type: postgresql
+    config:
+      extractor.sqlalchemy.conn_string: 'postgresql://balinthaller@localhost:5432/pagila'

@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
     "export": "next build && next export",
+    "start": "next start",
     "update-version": "update-template https://github.com/carte-data/carte"
   },
   "dependencies": {
