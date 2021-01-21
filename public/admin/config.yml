@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: carte-data/carte
+  repo: carte-data/carte-demo
   branch: main
 media_folder: "public/images/uploads"
 custom_logo: https://cartedata.com/ligature.svg
