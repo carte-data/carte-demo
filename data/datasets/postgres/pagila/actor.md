@@ -20,4 +20,4 @@ table_type: table
 ---
 The `actor` table lists information for all actors.
 
-The `actor` table is joined to the `film` table by means of the `film_actor` table.
+The `actor` table is joined to the [`film`](film) table by means of the [`film_actor`](film_actor) table.
