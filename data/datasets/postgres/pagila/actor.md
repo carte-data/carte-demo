@@ -20,4 +20,4 @@ table_type: table
 ---
 The `actor` table lists information for all actors.
 
-The `actor` table is joined to the [`film`](postgres/pagila/film) table by means of the [`film_actor`](postgres/pagila/film_actor) table.
+The `actor` table is joined to the [film](postgres/pagila/film) table by means of the [film_actor](postgres/pagila/film_actor) table.
