@@ -6,6 +6,7 @@
     "build": "next build",
     "dev": "next dev",
     "export": "next build && next export",
+    "extract": "flyover -c extract.config.yml -o data/datasets",
     "start": "next start",
     "update-version": "update-template https://github.com/carte-data/carte"
   },
