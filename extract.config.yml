@@ -3,4 +3,4 @@ connections:
   #   name: aws_glue
   - type: postgresql
     config:
-      extractor.sqlalchemy.conn_string: 'postgresql://balinthaller@localhost:5432/pagila'
+      connection_string: 'postgresql://balinthaller@localhost:5432/pagila'
