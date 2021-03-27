@@ -1,0 +1,26 @@
+site_name: carte-demo
+repo_url: ''
+repo_name: ''
+site_url: ''
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    primary: black
+    accent: teal
+  features:
+    - search.highlight
+    - search.suggest
+    - navigation.sections
+docs_dir: content
+plugins:
+  - search:
+      separator: '[\s\-\.\_]+'
+      lang: en
+  - markdown-filter
+markdown_extensions:
+  - meta
+  - attr_list
+extra_css:
+  - stylesheets/extra.css
+edit_uri: ''
