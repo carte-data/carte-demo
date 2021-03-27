@@ -1,3 +1,4 @@
 [build]
     publish = "site/"
     command = "./scripts/build.sh"
+    environment = { PYTHON_VERSION = "3.7" }
