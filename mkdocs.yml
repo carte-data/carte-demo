@@ -4,7 +4,6 @@ repo_name: ''
 site_url: ''
 theme:
   name: material
-  custom_dir: overrides
   palette:
     primary: black
     accent: teal
