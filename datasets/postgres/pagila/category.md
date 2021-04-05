@@ -1,7 +1,7 @@
 ---
 title: category
-connection: postgres
 location: postgres://pagila.public/category
+connection: postgres
 database: pagila
 columns:
   - name: category_id
@@ -18,6 +18,6 @@ table_type: table
 ---
 The `category` table lists the categories that can be assigned to a film.
 
-The category table is joined to the [film](postgres/pagila/film) table by means of the [film_category](postgres/pagila/film_category) table.
+The category table is joined to the [film](/postgres/pagila/film) table by means of the [film_category](/postgres/pagila/film_category) table.
 
 
