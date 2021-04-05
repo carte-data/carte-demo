@@ -1,13 +1,12 @@
 ---
 title: actor
-connection: postgres
 location: postgres://pagila.public/actor
+connection: postgres
 database: pagila
 columns:
   - name: actor_id
     type: integer
-    description: A surrogate primary key used to uniquely identify each actor in the
-      table.
+    description: A surrogate primary key used to uniquely identify each actor in the table.
   - name: first_name
     type: text
     description: The actor first name.
@@ -21,4 +20,4 @@ table_type: table
 ---
 The `actor` table lists information for all actors.
 
-The `actor` table is joined to the [film](postgres/pagila/film) table by means of the [film_actor](postgres/pagila/film_actor) table.
+The `actor` table is joined to the [film](/postgres/pagila/film) table by means of the [film_actor](/postgres/pagila/film_actor) table.
