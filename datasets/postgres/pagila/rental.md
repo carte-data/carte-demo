@@ -1,7 +1,7 @@
 ---
 title: rental
-connection: postgres
 location: postgres://pagila.public/rental
+connection: postgres
 database: pagila
 columns:
   - name: rental_id
@@ -29,4 +29,4 @@ table_type: table
 ---
 The `rental` table contains one row for each rental of each inventory item with information about who rented what item, when it was rented, and when it was returned.
 
-The `rental` table refers to the [inventory](postgres/pagila/inventory), [customer](postgres/pagila/customer), and [staff](postgres/pagila/staff) tables and is referred to by the [payment](postgres/pagila/payment) table.
+The `rental` table refers to the [inventory](/postgres/pagila/inventory), [customer](/postgres/pagila/customer), and [staff](/postgres/pagila/staff) tables and is referred to by the [payment](/postgres/pagila/payment) table.
