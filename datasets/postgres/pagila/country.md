@@ -1,7 +1,7 @@
 ---
 title: country
-connection: postgres
 location: postgres://pagila.public/country
+connection: postgres
 database: pagila
 columns:
   - name: country_id
@@ -18,4 +18,4 @@ table_type: table
 ---
 The `country` table contains a list of countries.
 
-The `country` table is referred to by a foreign key in the [city](postgres/pagila/city) table.
+The `country` table is referred to by a foreign key in the [city](/postgres/pagila/city) table.

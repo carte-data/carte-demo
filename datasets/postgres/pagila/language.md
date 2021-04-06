@@ -1,7 +1,7 @@
 ---
 title: language
-connection: postgres
 location: postgres://pagila.public/language
+connection: postgres
 database: pagila
 columns:
   - name: language_id
@@ -17,4 +17,4 @@ table_type: table
 ---
 The `language` table is a lookup table listing the possible languages that films can have for their language and original language values.
 
-The `language` table is referred to by the [film](postgres/pagila/film) table.
+The `language` table is referred to by the [film](/postgres/pagila/film) table.

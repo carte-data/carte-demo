@@ -1,7 +1,7 @@
 ---
 title: store
-connection: postgres
 location: postgres://pagila.public/store
+connection: postgres
 database: pagila
 columns:
   - name: store_id
@@ -20,4 +20,4 @@ table_type: table
 ---
 The `store` table lists all stores in the system. All inventory is assigned to specific stores, and staff and customers are assigned a “home store”.
 
-The `store` table refers to the [staff](postgres/pagila/staff) and [address](postgres/pagila/address) tables using foreign keys and is referred to by the [staff](postgres/pagila/staff), [customer](postgres/pagila/customer), and [inventory](postgres/pagila/inventory) tables.
+The `store` table refers to the [staff](/postgres/pagila/staff) and [address](/postgres/pagila/address) tables using foreign keys and is referred to by the [staff](/postgres/pagila/staff), [customer](/postgres/pagila/customer), and [inventory](/postgres/pagila/inventory) tables.

@@ -1,7 +1,7 @@
 ---
 title: staff
-connection: postgres
 location: postgres://pagila.public/staff
+connection: postgres
 database: pagila
 columns:
   - name: staff_id
@@ -21,8 +21,8 @@ columns:
     description: The staff member email address.
   - name: store_id
     type: integer
-    description: The staff member “home store.” The employee can work at other stores
-      but is generally assigned to the store listed.
+    description: The staff member “home store.” The employee can work at other
+      stores but is generally assigned to the store listed.
   - name: active
     type: boolean
     description: Whether this is an active employee. If employees leave, their rows
@@ -44,4 +44,4 @@ table_type: table
 ---
 The `staff` table lists all staff members, including information for email address, login information, and picture.
 
-The `staff` table refers to the [store](postgres/pagila/store) and [address](postgres/pagila/address) tables using foreign keys, and is referred to by the [rental](postgres/pagila/rental), [payment](postgres/pagila/payment), and [store](postgres/pagila/store) tables.
+The `staff` table refers to the [store](/postgres/pagila/store) and [address](/postgres/pagila/address) tables using foreign keys, and is referred to by the [rental](/postgres/pagila/rental), [payment](/postgres/pagila/payment), and [store](/postgres/pagila/store) tables.

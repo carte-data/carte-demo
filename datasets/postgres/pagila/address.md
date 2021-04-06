@@ -1,7 +1,7 @@
 ---
 title: address
-connection: postgres
 location: postgres://pagila.public/address
+connection: postgres
 database: pagila
 columns:
   - name: address_id
@@ -16,11 +16,10 @@ columns:
     description: An optional second line of an address.
   - name: district
     type: text
-    description: The region of an address, this may be a state, province, prefecture,
-      etc.
+    description: The region of an address, this may be a state, province, prefecture, etc.
   - name: city_id
     type: integer
-    description: A foreign key pointing to the [city](postgres/pagila/city) table.
+    description: A foreign key pointing to the [city](/postgres/pagila/city) table.
   - name: postal_code
     type: text
     description: The postal code or ZIP code of the address (where applicable).
@@ -34,4 +33,4 @@ table_type: table
 ---
 The `address` table contains address information for customers, staff, and stores.
 
-The `address` table primary key appears as a foreign key in the [customer](postgres/pagila/customer), [staff](postgres/pagila/staff), and [store](postgres/pagila/store) tables.
+The `address` table primary key appears as a foreign key in the [customer](/postgres/pagila/customer), [staff](/postgres/pagila/staff), and [store](/postgres/pagila/store) tables.

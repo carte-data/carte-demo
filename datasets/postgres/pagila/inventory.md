@@ -1,7 +1,7 @@
 ---
 title: inventory
-connection: postgres
 location: postgres://pagila.public/inventory
+connection: postgres
 database: pagila
 columns:
   - name: inventory_id
@@ -20,4 +20,4 @@ table_type: table
 ---
 The `inventory` table contains one row for each copy of a given film in a given store.
 
-The `inventory` table refers to the [film](postgres/pagila/film) and [store](postgres/pagila/store) tables using foreign keys and is referred to by the [rental](postgres/pagila/rental) table.
+The `inventory` table refers to the [film](/postgres/pagila/film) and [store](/postgres/pagila/store) tables using foreign keys and is referred to by the [rental](/postgres/pagila/rental) table.
